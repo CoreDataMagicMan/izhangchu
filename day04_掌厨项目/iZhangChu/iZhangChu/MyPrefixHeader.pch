@@ -1,0 +1,39 @@
+//
+//  MyPrefixHeader.pch
+//  iZhangChu
+//
+//  Created by iJeff on 15/8/26.
+//  Copyright (c) 2015年 iJeff. All rights reserved.
+//
+
+#ifndef iZhangChu_MyPrefixHeader_pch
+#define iZhangChu_MyPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/*
+ 头文件
+ */
+#import "NetInterface.h"
+#import "HTTPRequestManager.h"
+#import "Helper.h"
+#import "UIImageView+WebCache.h"
+
+/*
+ 宏定义
+ */
+#define kScreenBounds ([UIScreen mainScreen].bounds)
+#define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
+#define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
+
+
+
+#endif
+
+
+
+
+
+
+

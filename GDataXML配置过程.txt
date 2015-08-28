@@ -1,0 +1,7 @@
+
+GDataXML配置过程： 
+(1).引入GDataXML(2个文件) 
+<arc模式下>.对GDataXML.m增加非arc注释 -fno-objc-arc 
+(2).添加系统库 libxml2.dylib 
+(3).Head Search Path中添加 /usr/include/libxml2 
+(4).Other linker flags中添加 -lxml2 
